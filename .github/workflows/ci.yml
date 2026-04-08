@@ -20,7 +20,7 @@ jobs:
 
     steps:
       - name: 🚚 Get latest code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: 📂 Cache dependencies
         id: composer-cache
@@ -43,7 +43,7 @@ jobs:
           coverage: pcov
 
       - name: 🍱 Install Composer dependencies
-        uses: ramsey/composer-install@v3
+        uses: ramsey/composer-install@v4
         with:
           dependency-versions: ${{ matrix.dependencies }}
           composer-options: --no-ansi --no-cache --no-interaction --no-scripts --no-progress --prefer-dist
