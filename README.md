@@ -10,8 +10,8 @@ PHP and Laravel development, debugging, testing and automation tools.
 
 ## 📋 Requirements
 
-> - **Requires [PHP 8.3+](https://php.net/releases/)**
-(at least 8.3.29 recommended to avoid potential bugs).
+> - **Requires [PHP 8.4+](https://php.net/releases/)**
+(at least 8.4.19 recommended to avoid potential bugs).
 > - **Requires [Composer v2+](https://getcomposer.org/)** to manage PHP dependencies.
 
 ## ⚡️ Installation
