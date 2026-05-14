@@ -77,6 +77,7 @@
         "laravel/boost": "^2.4",
         "laravel/dusk": "^8.6",
         "laravel/pail": "^1.2",
+        "laravel/pao": "^1.0",
         "laravel/pint": "^1.29",
         "laravel/sail": "^1.59",
         "mockery/mockery": "^1.6",
